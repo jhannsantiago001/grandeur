@@ -14,7 +14,6 @@ render(){
     const {collections} = this.state;
     return(
         <div className = 'shop-page'>
-            Shop Page
             {collections.map(({id, ...otherCollectionProps}) => (
                 <CollectionPreview key = {id} {...otherCollectionProps}/>
             ))}
