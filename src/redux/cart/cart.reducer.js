@@ -1,8 +1,8 @@
-import CartActionTypes from './cart.actions'; 
+import CartActionTypes from './cart.types'; 
 
 
 const INITIAL_STATE = {
-    hidden: true;
+    hidden: true
 };
 
 const cartReducer = (state = INITIAL_STATE, action) =>{
